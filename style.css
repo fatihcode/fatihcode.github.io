@@ -1,5 +1,4 @@
 body {
-  padding-bottom: 3rem;
   color: #5a5a5a;
 }
 
@@ -8,13 +7,15 @@ body {
 }
 
 .site-header {
-  background-color: rgba(0, 0, 0, .85);
+  background-color: rgba(0, 0, 0, .75);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
 
 .site-header a {
   color: #8e8e8e;
+  text-decoration: none;
+  cursor: pointer;
   transition: color .15s ease-in-out;
 }
 
@@ -33,9 +34,34 @@ body {
   letter-spacing: -.05rem;
 }
 
-
 .order-md-2{
   text-align: end;
+}
+
+.rounded{
+  border-radius: 0.5rem !important;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.25);
+  transition: all 0.3s ease;
+}
+
+.rounded:hover{
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.175);
+  transition: all 0.3s ease;
+}
+
+.badge{
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.badge:hover{
+  background-color: rgba(var(--bs-warning-rgb),var(--bs-bg-opacity))!important;
+  transition: all 0.3s ease;
+}
+
+.hov:hover{
+  color: #000;
+  cursor: pointer;
 }
 
 @media (min-width: 40em) {
