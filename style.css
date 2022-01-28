@@ -39,13 +39,26 @@ body {
 }
 
 .rounded{
+  width:100%;
   border-radius: 0.5rem !important;
   box-shadow: 0 0.5rem 1rem rgba(0,0,0,.25);
   transition: all 0.3s ease;
 }
 
 .rounded:hover{
+  transform: scale(1.006,1.006);
   box-shadow: 0 1rem 2rem rgba(0,0,0,.175);
+  transition: all 0.3s ease;
+}
+.port{
+  max-width: 150px;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+}
+.port:hover{
+  transform: translate(0,10px); 
   transition: all 0.3s ease;
 }
 
