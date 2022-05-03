@@ -1,22 +1,47 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { project } from "./data"
 
 export default function Project() {
+
+    const [focus, setFocus] = useState(false)
+
+    const badge = document.querySelectorAll(".badge")
+
+    badge.forEach(element => {
+        element.onclick = () => {
+            for (let i = 0; i < badge.length; i++) {
+                if (badge[i].innerHTML == element.innerHTML) {
+                    badge[i].classList.toggle("focus")
+                }
+            }
+        }
+    });
+    
+
+    // const badge = (e) => {
+   
+    //     console.log(e.target.innerHTML);
+    //     console.log(e.target.innerHTML.split(" ")[3]);
+    //     setFocus(true)
+    // }
+
+
+
     return (
         <>
             {project.map(item => (
                 <React.Fragment key={item.id}>
                     <div className="row featurette">
 
-                        <div className="col-md-5">
+                        <div className={"col-md-5" + (item.id % 2 == 0 ? "" : " order-md-2")}>
                             <h2 className="featurette-heading">{item.title}</h2>
                             <p className="lead">{item.description}</p>
 
                             <p>
                                 {item.tag.map((tag, i) => (
-                                    <span key={i} className="badge rounded-pill bg-light text-dark p-2">
+                                    <span key={i} className={"badge rounded-pill text-dark p-2 bg-light" + (focus ? " bg-warning" : "")} onClick={badge} >
                                         <i className="bi bi-tag"></i> {tag}
-                                        </span>
+                                    </span>
                                 ))}
                             </p>
 
@@ -31,7 +56,7 @@ export default function Project() {
                     </div>
                     <hr className="featurette-divider"></hr>
                 </React.Fragment>
-            ))}
+            )).reverse()}
         </>
     )
 }

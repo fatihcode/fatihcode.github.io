@@ -75,7 +75,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.badgefocus {
+.focus {
   background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
   transition: all 0.3s ease;
 }
@@ -87,6 +87,10 @@ body {
 .hov:hover {
   color: #000;
   cursor: pointer;
+}
+
+.bi-tag{
+  pointer-events: none;
 }
 
 @media (min-width: 40em) {

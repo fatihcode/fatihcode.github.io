@@ -8,11 +8,11 @@ import { Container } from "react-bootstrap";
 export default function App() {
   return (
 
-    <div className="px-1 px-sm-3 mb-2">
+    <div>
 
       <Header />
 
-      <Container>
+      <Container className="px-1 px-sm-3 mb-2">
 
         <Intro />
 

@@ -20,7 +20,7 @@ export const project = [
       title: "Quiz Application",
       description: "A quiz application that allows users to take a quiz and get a score.",
       tag: ["CSS", "Javascript", "Bootstrap"],
-      image: "03-quiz-app.png",
+      image: "03-quiz-app.jpg",
       live: "https://fatihqaz.github.io/quiz/"
    },
    {
