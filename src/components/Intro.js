@@ -5,7 +5,7 @@ export default function Intro() {
    return (
       <div className="p-3 p-md-5 m-2 text-center bg-light">
          <div className="col-md-9 mx-auto">
-            <img className="rounded-circle" src="img/profile.jpg" alt="" width="30%" />
+            <img className="rounded-circle" src="static/img/profile.jpg" alt="" width="30%" />
             <h1 className="fw-normal">Fatih</h1>
             <p className="lead fw-normal">Jr. Frontend Developer. Desinger.</p>
             <p className="lead fw-normal">Merhaba! Ben Fatih. Bilgisayar öğretmenliği mezunuyum. Uzun zamandır

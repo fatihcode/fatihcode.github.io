@@ -1,90 +1,90 @@
 export const project = [
    {
       id: 1,
-      name: "Quiz Application",
-      description: "A quiz application that allows users to take a quiz and get a score.",
-      tag: ["CSS", "Javascript", "Bootstrap"],
-      image: "quiz.png",
-      live: "https://fatihqaz.github.io/quiz/"
-   },
-   {
-      id: 2,
-      name: "Random Background",
+      title: "Random Background",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio modi sunt reiciendis iusto nam quaerat voluptas consequuntur mollitia voluptates beatae ratione eligendi illo, iure veritatis!",
       tag: ["CSS", "Javascript"],
-      image: "random.jpg",
+      image: "01-random-color.jpg",
       live: "https://fatihqaz.github.io/random-color/"
    },
    {
-      id: 3,
-      name: "Red Ball",
+      id: 2,
+      title: "Dice Game",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio modi sunt reiciendis iusto nam quaerat voluptas consequuntur mollitia voluptates beatae ratione eligendi illo, iure veritatis!",
       tag: ["CSS", "Javascript"],
-      image: "redball.jpg",
-      live: "https://fatihqaz.github.io/red-ball/"
-   },
-   {
-      id: 4,
-      name: "Dice Game",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio modi sunt reiciendis iusto nam quaerat voluptas consequuntur mollitia voluptates beatae ratione eligendi illo, iure veritatis!",
-      tag: ["CSS", "Javascript"],
-      image: "dice.jpg",
+      image: "02-dice-challenge.jpg",
       live: "https://fatihqaz.github.io/dice-challenge/"
    },
    {
-      id: 5,
-      name: "Guess Number",
+      id: 3,
+      title: "Quiz Application",
+      description: "A quiz application that allows users to take a quiz and get a score.",
+      tag: ["CSS", "Javascript", "Bootstrap"],
+      image: "03-quiz-app.png",
+      live: "https://fatihqaz.github.io/quiz/"
+   },
+   {
+      id: 4,
+      title: "Red Ball",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio modi sunt reiciendis iusto nam quaerat voluptas consequuntur mollitia voluptates beatae ratione eligendi illo, iure veritatis!",
       tag: ["CSS", "Javascript"],
-      image: "guess.jpg",
+      image: "04-red-ball.jpg",
+      live: "https://fatihqaz.github.io/red-ball/"
+   },
+   {
+      id: 5,
+      title: "Guess Number",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio modi sunt reiciendis iusto nam quaerat voluptas consequuntur mollitia voluptates beatae ratione eligendi illo, iure veritatis!",
+      tag: ["CSS", "Javascript"],
+      image: "05-quess-number.jpg",
       live: "https://fatihqaz.github.io/quess-number/"
    },
    {
       id: 6,
-      name: "Bill Calculator",
+      title: "Bill Calculator",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio modi sunt reiciendis iusto nam quaerat voluptas consequuntur mollitia voluptates beatae ratione eligendi illo, iure veritatis!",
       tag: ["CSS", "Javascript"],
-      image: "fatura.jpg",
+      image: "06-bill-calculator.jpg",
       live: "https://fatihqaz.github.io/fatura/"
    },
    {
       id: 7,
-      name: "Exchange",
+      title: "Exchange",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio modi sunt reiciendis iusto nam quaerat voluptas consequuntur mollitia voluptates beatae ratione eligendi illo, iure veritatis!",
       tag: ["API", "Javascript"],
-      image: "doviz.jpg",
+      image: "07-exchange.jpg",
       live: "https://fatihqaz.github.io/doviz/"
    },
    {
       id: 8,
-      name: "Movies",
+      title: "Movies",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio modi sunt reiciendis iusto nam quaerat voluptas consequuntur mollitia voluptates beatae ratione eligendi illo, iure veritatis!",
       tag: ["API", "Javascript", "Bootstrap"],
-      image: "movie.jpg",
+      image: "08-movies.jpg",
       live: "https://fatihqaz.github.io/movies/"
    },
    {
       id: 9,
-      name: "React Phone Book",
+      title: "React Phone Book",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio modi sunt reiciendis iusto nam quaerat voluptas consequuntur mollitia voluptates beatae ratione eligendi illo, iure veritatis!",
       tag: ["React", "Javascript", "Bootstrap"],
-      image: "phone-book.jpg",
+      image: "09-phone-book.jpg",
       live: "https://fatihqaz.github.io/phone-book/"
    },
    {
       id: 10,
-      name: "Todo App",
+      title: "Todo App",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio modi sunt reiciendis iusto nam quaerat voluptas consequuntur mollitia voluptates beatae ratione eligendi illo, iure veritatis!",
       tag: ["React", "Javascript", "CSS"],
-      image: "todo.jpg",
+      image: "10-todo-list.jpg",
       live: "https://fatihqaz.github.io/todo-list/"
    },
    {
       id: 11,
-      name: "React Redux Human Resource",
+      title: "React Redux Human Resource",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio modi sunt reiciendis iusto nam quaerat voluptas consequuntur mollitia voluptates beatae ratione eligendi illo, iure veritatis!",
       tag: ["Node.Js", "MongoDB", "API", "React", "Redux", "Javascript", "Bootstrap"],
-      image: "human.jpg",
+      image: "11-human-resource.jpg",
       live: "https://fatihqaz.github.io/human-resource/"
    }
 ]
@@ -93,21 +93,21 @@ export const social = [
    {
       id: 1,
       link: "qaz3400@outlook.com",
-      icon: "bi bi-envelope",
+      icon: "bi-envelope",
    },
    {
       id: 2,
       link: "https://twitter.com/fatih_js",
-      icon: "bi bi-twitter",
+      icon: "bi-twitter",
    },
    {
       id: 3,
       link: "https://github.com/fatihqaz",
-      icon: "bi bi-github",
+      icon: "bi-github",
    },
    {
       id: 4,
       link: "https://www.linkedin.com/in/fatih-q-749415230/",
-      icon: "bi bi-linkedin",
+      icon: "bi-linkedin",
    }
 ]
