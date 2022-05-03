@@ -1,65 +1,23 @@
-# Archive
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Compiled source #
-*.com
-*.class
-*.dll
-*.exe
+# testing
+/coverage
 
+# production
+/build
 
-# Logs and databases #
-*.log
-*.sql
-*.sqlite
-*.ini
-
-
-# Adobe
-*.pdf
-*.psd
-*.ai
-*.eps
-
-
-# MicrosoftOffice
-*.tmp
-*.docx
-*.xlsx
-*.pptx
-*.doc
-*.xls
-*.ppt
-
-
-# MicrosoftOffice temporary
-~$*.doc*
-~$*.ppt*
-~$*.xls*
-*.~vsd*
-
-
-# MicrosoftOffice Backup File
-*.doc*
-*.xlk
-
-
-# OS generated files #
-.directory
+# misc
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-/extras
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
