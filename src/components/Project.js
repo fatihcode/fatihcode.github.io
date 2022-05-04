@@ -24,7 +24,7 @@ export default function Project() {
     //     console.log(e.target.innerHTML.split(" ")[3]);
     //     setFocus(true)
     // }
-
+    // onClick={badge}
 
 
     return (
@@ -33,13 +33,13 @@ export default function Project() {
                 <React.Fragment key={item.id}>
                     <div className="row featurette">
 
-                        <div className={"col-md-5" + (item.id % 2 == 0 ? "" : " order-md-2")}>
+                        <div className={"col-md-5" + (item.id % 2 === 0 ? "" : " order-md-2")}>
                             <h2 className="featurette-heading">{item.title}</h2>
                             <p className="lead">{item.description}</p>
 
                             <p>
                                 {item.tag.map((tag, i) => (
-                                    <span key={i} className={"badge rounded-pill text-dark p-2 bg-light" + (focus ? " bg-warning" : "")} onClick={badge} >
+                                    <span key={i} className={"badge rounded-pill text-dark p-2 bg-light" + (focus ? " bg-warning" : "")}  >
                                         <i className="bi bi-tag"></i> {tag}
                                     </span>
                                 ))}
@@ -49,12 +49,12 @@ export default function Project() {
 
                         <div className="col-md-7">
                             <a href={item.live} target="_blank">
-                                <img className="rounded" src={"static/img/" + item.image} alt="" />
+                                <img className="rounded" src={"static/img/" + item.image} alt={item.title} />
                             </a>
                         </div>
 
                     </div>
-                    <hr className="featurette-divider"></hr>
+                    <hr/>
                 </React.Fragment>
             )).reverse()}
         </>

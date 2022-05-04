@@ -12,7 +12,7 @@ export default function App() {
 
       <Header />
 
-      <Container className="px-1 px-sm-3 mb-2">
+      <Container className="px-1 px-sm-3">
 
         <Intro />
 

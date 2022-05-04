@@ -4,6 +4,13 @@ body {
   color: #5a5a5a;
 }
 
+#p1 {
+  margin-top: 5em;
+}
+hr{
+  margin: 0;
+}
+
 .container {
   max-width: 1080px;
 }
@@ -26,7 +33,7 @@ body {
   text-decoration: none;
 }
 
-.featurette-divider {
+.featurette {
   margin: 5rem 0;
 }
 
@@ -80,7 +87,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.hov{
+.hov {
   color: #5a5a5a;
 }
 
@@ -89,7 +96,7 @@ body {
   cursor: pointer;
 }
 
-.bi-tag{
+.bi-tag {
   pointer-events: none;
 }
 

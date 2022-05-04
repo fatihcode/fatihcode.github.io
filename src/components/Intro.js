@@ -4,9 +4,9 @@ import Social from './Social'
 export default function Intro() {
    return (
       <>
-         <div className="p-3 p-md-5 m-2 text-center bg-light">
+         <main className="p-3 p-md-5 m-2 text-center bg-light">
             <div className="col-md-9 mx-auto">
-               <img className="rounded-circle" src="static/img/profile.jpg" alt="" width="30%" />
+               <img className="rounded-circle" src="static/img/profile.jpg" alt="profil picture" width="200" height="200" />
                <h1 className="fw-normal">Fatih</h1>
                <p className="lead fw-normal">Jr. Frontend Developer. Desinger.</p>
                <p className="lead fw-normal">Merhaba! Ben Fatih. Bilgisayar öğretmenliği mezunuyum. Uzun zamandır
@@ -26,8 +26,8 @@ export default function Intro() {
                   </a>
                </div>
             </div>
-         </div>
-         <hr id="p1" className="featurette-divider"></hr>
+         </main>
+         <hr id="p1"/>
       </>
    )
 }
