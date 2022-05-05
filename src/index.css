@@ -7,7 +7,8 @@ body {
 #p1 {
   margin-top: 5em;
 }
-hr{
+
+hr {
   margin: 0;
 }
 
@@ -89,6 +90,11 @@ hr{
 
 .hov {
   color: #5a5a5a;
+  margin: 0 10px;
+}
+
+main .hov {
+  margin: 20px;
 }
 
 .hov:hover {

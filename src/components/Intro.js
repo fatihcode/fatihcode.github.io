@@ -4,7 +4,7 @@ import Social from './Social'
 export default function Intro() {
    return (
       <>
-         <main className="p-3 p-md-5 m-2 text-center bg-light">
+         <section className="p-3 p-md-5 m-2 text-center bg-light">
             <div className="col-md-9 mx-auto">
                <img className="rounded-circle" src="static/img/profile.jpg" alt="profil picture" width="200" height="200" />
                <h1 className="fw-normal">Fatih</h1>
@@ -13,10 +13,10 @@ export default function Intro() {
                   tasarım üzerine olan yolculuğuma şimdi yazılım üzerinden devam ediyorum. Bilişim dünyasına
                   meraklı, vaktimi araştırarak ve öğrenerek geçirmeye çalışan biriyim...</p>
 
-               <div className="fs-4">
+              
                   <Social />
                   <hr />
-               </div>
+               
 
                <div className="port">
                   <a href="#p1" className="text-decoration-none text-muted">
@@ -26,8 +26,8 @@ export default function Intro() {
                   </a>
                </div>
             </div>
-         </main>
-         <hr id="p1"/>
+         </section>
+         <hr id="p1" />
       </>
    )
 }
