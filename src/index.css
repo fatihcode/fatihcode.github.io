@@ -50,6 +50,7 @@ hr {
 
 .rounded {
   width: 100%;
+  height: auto;
   border-radius: 0.5rem !important;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .25);
   transition: all 0.3s ease;
@@ -81,6 +82,10 @@ hr {
 .badge:hover {
   background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
   transition: all 0.3s ease;
+}
+
+svg {
+  pointer-events: none;
 }
 
 .focus {
